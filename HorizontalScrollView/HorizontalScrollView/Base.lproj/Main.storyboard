@@ -18,19 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nkG-Du-eqt">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkG-Du-eqt">
                                 <rect key="frame" x="0.0" y="218" width="375" height="185"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4H-Wr-YIq">
                                         <rect key="frame" x="0.0" y="0.0" width="1125" height="185"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="HzD-vw-JBq">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="HzD-vw-JBq">
                                                 <rect key="frame" x="750" y="0.0" width="375" height="185.00000000000011"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="DRs-l2-acQ">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image2" translatesAutoresizingMaskIntoConstraints="NO" id="DRs-l2-acQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="185.00000000000011"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3" translatesAutoresizingMaskIntoConstraints="NO" id="qTC-G9-gR2">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image3" translatesAutoresizingMaskIntoConstraints="NO" id="qTC-G9-gR2">
                                                 <rect key="frame" x="375" y="0.0" width="375" height="185.00000000000011"/>
                                             </imageView>
                                         </subviews>
